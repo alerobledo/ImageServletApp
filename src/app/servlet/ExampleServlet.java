@@ -30,6 +30,7 @@ public class ExampleServlet extends HttpServlet implements Servlet {
     	
 	public ExampleServlet() throws IOException {
 		super();
+		//HERE IT SHOULD BE CHANGED THE PATH
 		originalImage = ImageIO.read(new File("C:\\Users\\Administrator\\workspace\\ImageServletApp\\src\\app\\servlet\\hinchadacanaya.jpg"));
 		watermarkImage = ImageIO.read(new File("C:\\Users\\Administrator\\workspace\\ImageServletApp\\src\\app\\servlet\\rc_marc.png"));
 	}
